@@ -149,6 +149,10 @@ socks5 = ["dep:fast-socks5"]
 [patch.crates-io]
 url = { path = "./crates/rust-url/url" }
 form_urlencoded = { path = "./crates/rust-url/form_urlencoded" }
+group = { path = "./crates/rust-url/group" }
+ff = { path = "./crates/rust-url/ff" }
+atoi = { path = "./crates/rust-url/atoi-rs" }
+dashmap = { path = "./crates/rust-url/dashmap" }
 idna = { path = "./crates/rust-url/idna" }
 percent-encoding = { path = "./crates/rust-url/percent_encoding" }
 
